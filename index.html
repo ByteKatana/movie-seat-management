@@ -8,14 +8,14 @@
     <title>Movie Seat Management</title>
   </head>
   <body class="bg-neutral-800">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 m-5 text-neutral-100">
-      <div>
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-4 text-neutral-100">
+      <div class="md:col-start-1 md:col-end-2 p-5">
         <h2 class="text-3xl font-bold">Ticket Information</h2>
         <div>
           <div class="mt-3">
             <label
               for="fullname"
-              class="relative block overflow-hidden rounded-md w-1/2 bg-white text-black border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600"
+              class="relative block overflow-hidden rounded-md bg-white text-black border border-gray-200 px-3 pt-3 shadow-sm focus-within:border-blue-600 focus-within:ring-1 focus-within:ring-blue-600"
             >
               <input
                 type="text"
@@ -42,14 +42,14 @@
             <select
               name="movie"
               id="movie"
-              class="mt-1.5 w-1/2 rounded-lg border-gray-300 text-gray-700 text-sm"
+              class="mt-1.5 w-full rounded-lg border-gray-300 text-gray-700 text-sm"
             >
               <option value="">Please select</option>
               <option value="barbie">Barbie</option>
               <option value="oppenheimer">Oppenheimer</option>
             </select>
           </div>
-          <div class="flow-root w-1/2 mt-10">
+          <div class="flow-root w-full mt-10">
             <dl class="-my-3 divide-y text-sm divide-gray-700">
               <div class="grid grid-cols-1 gap-1 py-3 sm:grid-cols-3 sm:gap-4">
                 <dt class="font-semibold text-white">Seats</dt>
@@ -64,8 +64,251 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="md:col-start-2 md:col-end-7 bg-slate-700 min-h-screen p-5">
         <h2 class="text-3xl font-bold">Seats</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-20 mt-5">
+          <div>
+            <h3 class="font-semibold text-center">Left Column</h3>
+            <div class="flex justify-center">
+              <span
+                class="grid grid-cols-4 justify-items-center bg-gray-200 p-7 rounded-md"
+              >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >01</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-red-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >02</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >03</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >04</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >05</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >06</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >07</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >08</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >09</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >10</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >11</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >12</span
+                >
+              </span>
+            </div>
+          </div>
+          <div>
+            <h3 class="font-semibold text-center">Center Column</h3>
+            <div class="flex justify-center">
+              <span class="grid grid-cols-10 bg-gray-200 p-7 rounded-md">
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >01</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >02</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >03</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >04</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >05</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-red-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >06</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >07</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >08</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >09</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >10</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >11</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >12</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >13</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >14</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >15</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >16</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >17</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >18</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >19</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-red-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >20</span
+                >
+              </span>
+            </div>
+          </div>
+          <div>
+            <h3 class="font-semibold text-center">Right Column</h3>
+            <div class="flex justify-center">
+              <span
+                class="grid grid-cols-4 justify-items-center bg-gray-200 p-7 rounded-md"
+              >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >01</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >02</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-red-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >03</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >04</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >05</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >06</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >07</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >08</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >09</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-red-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >10</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >11</span
+                >
+                <span
+                  class="block w-10 h-10 m-1 bg-green-500 text-white text-center font-bold rounded-lg shadow-md"
+                  >12</span
+                >
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script type="module" src="/main.js"></script>
