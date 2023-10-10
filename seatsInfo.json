@@ -1,0 +1,182 @@
+{
+  "0": {
+    "position": "left",
+    "seatNo": 1,
+    "status": "booked"
+  },
+  "1": {
+    "position": "left",
+    "seatNo": 2,
+    "status": "available"
+  },
+  "2": {
+    "position": "left",
+    "seatNo": 3,
+    "status": "available"
+  },
+  "3": {
+    "position": "left",
+    "seatNo": 4,
+    "status": "available"
+  },
+  "4": {
+    "position": "center",
+    "seatNo": 5,
+    "status": "available"
+  },
+  "5": {
+    "position": "center",
+    "seatNo": 6,
+    "status": "available"
+  },
+  "6": {
+    "position": "center",
+    "seatNo": 7,
+    "status": "available"
+  },
+  "7": {
+    "position": "center",
+    "seatNo": 8,
+    "status": "available"
+  },
+  "8": {
+    "position": "center",
+    "seatNo": 9,
+    "status": "available"
+  },
+  "9": {
+    "position": "center",
+    "seatNo": 10,
+    "status": "available"
+  },
+  "10": {
+    "position": "center",
+    "seatNo": 11,
+    "status": "available"
+  },
+  "11": {
+    "position": "center",
+    "seatNo": 12,
+    "status": "available"
+  },
+  "12": {
+    "position": "center",
+    "seatNo": 13,
+    "status": "available"
+  },
+  "13": {
+    "position": "center",
+    "seatNo": 14,
+    "status": "available"
+  },
+  "14": {
+    "position": "right",
+    "seatNo": 15,
+    "status": "available"
+  },
+  "15": {
+    "position": "right",
+    "seatNo": 16,
+    "status": "available"
+  },
+  "16": {
+    "position": "right",
+    "seatNo": 17,
+    "status": "available"
+  },
+  "17": {
+    "position": "right",
+    "seatNo": 18,
+    "status": "available"
+  },
+  "18": {
+    "position": "left",
+    "seatNo": 19,
+    "status": "booked"
+  },
+  "19": {
+    "position": "left",
+    "seatNo": 20,
+    "status": "available"
+  },
+  "20": {
+    "position": "left",
+    "seatNo": 21,
+    "status": "available"
+  },
+  "21": {
+    "position": "left",
+    "seatNo": 22,
+    "status": "available"
+  },
+  "22": {
+    "position": "center",
+    "seatNo": 23,
+    "status": "available"
+  },
+  "23": {
+    "position": "center",
+    "seatNo": 24,
+    "status": "available"
+  },
+  "24": {
+    "position": "center",
+    "seatNo": 25,
+    "status": "available"
+  },
+  "25": {
+    "position": "center",
+    "seatNo": 26,
+    "status": "available"
+  },
+  "26": {
+    "position": "center",
+    "seatNo": 27,
+    "status": "available"
+  },
+  "27": {
+    "position": "center",
+    "seatNo": 28,
+    "status": "available"
+  },
+  "28": {
+    "position": "center",
+    "seatNo": 29,
+    "status": "available"
+  },
+  "29": {
+    "position": "center",
+    "seatNo": 30,
+    "status": "available"
+  },
+  "30": {
+    "position": "center",
+    "seatNo": 31,
+    "status": "available"
+  },
+  "31": {
+    "position": "center",
+    "seatNo": 32,
+    "status": "available"
+  },
+  "32": {
+    "position": "right",
+    "seatNo": 33,
+    "status": "available"
+  },
+  "33": {
+    "position": "right",
+    "seatNo": 34,
+    "status": "available"
+  },
+  "34": {
+    "position": "right",
+    "seatNo": 35,
+    "status": "available"
+  },
+  "35": {
+    "position": "right",
+    "seatNo": 36,
+    "status": "available"
+  }
+}
