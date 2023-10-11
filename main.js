@@ -98,9 +98,6 @@ document.setMovie = (movie) => {
 
   if (ticketInfo.movie === '') {
     ticketInfo.movie = movie
-    //selectedMovie.style.transform = 'scale(.90)'
-    /* selectedMovie.style.boxShadow =
-      '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)' */
     selectedMovie.classList.add('selectedMovie')
   } else if (ticketInfo.movie === movie) {
     ticketInfo.price = 0
@@ -175,11 +172,6 @@ purchaseBtn.addEventListener('click', (event) => {
 
   setTicketInfo()
 })
-
-/* movies.addEventListener('mouseover', (e) => {
-  e.preventDefault()
-  movies.style.transform = 'scale(0.90)'
-}) */
 
 //Others
 const seatsInfo = Object.entries(seats)
