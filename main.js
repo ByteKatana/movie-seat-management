@@ -4,13 +4,16 @@ import Swal from 'sweetalert2'
 //Objects
 let ticketInfo = {
   fullname: '',
+  movie: 'barbie',
   seatNo: 0,
   price: 0,
 }
 
+let sectionNo = 1
+
 //Elements
 let fullnameInput = document.getElementById('fullname')
-let movieSelect = document.getElementById('movie')
+let movies = document.querySelector("[id^='movie-']")
 let showPrice = document.getElementById('showPrice')
 let showSeat = document.getElementById('showSeat')
 let purchaseBtn = document.getElementById('purchaseBtn')
@@ -77,13 +80,10 @@ document.setSeatNo = (seatNo) => {
   }
 }
 
-//Event Listeners
-fullnameInput.addEventListener('input', (event) => {
-  ticketInfo.fullname = fullnameInput.value
-})
+document.setMovie = (movie) => {
+  let selectedMovie = document.getElementById(`movie-${movie}`)
 
-movieSelect.addEventListener('change', (event) => {
-  switch (movieSelect.value) {
+  switch (movie) {
     case 'barbie':
       ticketInfo.price = 25
       break
@@ -96,8 +96,48 @@ movieSelect.addEventListener('change', (event) => {
       break
   }
 
+  if (ticketInfo.movie === '') {
+    ticketInfo.movie = movie
+    //selectedMovie.style.transform = 'scale(.90)'
+    /* selectedMovie.style.boxShadow =
+      '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)' */
+    selectedMovie.classList.add('selectedMovie')
+  } else if (ticketInfo.movie === movie) {
+    ticketInfo.price = 0
+    ticketInfo.movie = ''
+    selectedMovie.classList.remove('selectedMovie')
+  } else if (ticketInfo.movie !== '' && ticketInfo.movie !== movie) {
+    console.log('hello')
+    let oldMovie = document.getElementById(`movie-${ticketInfo.movie}`)
+
+    ticketInfo.movie = movie
+    oldMovie.classList.remove('selectedMovie')
+    selectedMovie.classList.add('selectedMovie')
+  }
+
   showPrice.textContent = ticketInfo.price
+}
+
+document.goNextSection = () => {
+  document
+    .getElementById(`section-${sectionNo + 1}`)
+    .scrollIntoView({ behavior: 'smooth', block: 'center' })
+
+  sectionNo++
+}
+
+document.goPreviousSection = () => {
+  document
+    .getElementById(`section-${sectionNo - 1}`)
+    .scrollIntoView({ behavior: 'smooth', block: 'center' })
+  sectionNo--
+}
+
+//Event Listeners
+fullnameInput.addEventListener('input', (event) => {
+  ticketInfo.fullname = fullnameInput.value
 })
+
 purchaseBtn.addEventListener('click', (event) => {
   if (
     ticketInfo.fullname === '' &&
@@ -135,6 +175,11 @@ purchaseBtn.addEventListener('click', (event) => {
 
   setTicketInfo()
 })
+
+/* movies.addEventListener('mouseover', (e) => {
+  e.preventDefault()
+  movies.style.transform = 'scale(0.90)'
+}) */
 
 //Others
 const seatsInfo = Object.entries(seats)
