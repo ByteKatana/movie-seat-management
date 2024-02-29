@@ -1,0 +1,219 @@
+repo_name: ByteKatana/movie-seat-management
+report_id: 7d6844d46047e217e4361510b4913b8a
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T20:10:21+00:00'
+requested_by: ByteKatana
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-09 18:12:57.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-09 18:12:57.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-10 16:27:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/.github/workflows/gitlab-sync.yml
+  detection_source: ".github/workflows/gitlab-sync.yml"
+  last_updated_by: Kaan AYDIN
+  last_updated_on: 2023-10-10 09:06:28.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-09 18:12:57.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-09 18:12:57.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-09 18:12:57.000000000 Z
+- name: SweetAlert
+  description: A beautiful replacement for JavaScript's "alert"
+  website_url: https://sweetalert.js.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://ucarecdn.com/c4c55828-7bcf-4661-8f4f-52745636aafd/
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-10 16:27:47.000000000 Z
+- name: json-loader
+  description: Json loader module for webpack
+  package_url: https://www.npmjs.com/json-loader
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-10 16:27:47.000000000 Z
+- name: sweetalert2
+  description: A beautiful
+  package_url: https://www.npmjs.com/sweetalert2
+  version: 11.7.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18093/image.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-10 16:27:47.000000000 Z
+  vulnerabilities:
+  - name: sweetalert2 v11.6.14 and above contains potentially undesirable behavior
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-mrr8-v49w-3333
+    detected_date: Jul 11
+    severity: low
+    first_patched: 
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-10 16:27:47.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.4.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/ByteKatana/movie-seat-management/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: ByteKatana
+  last_updated_on: 2023-10-09 18:12:57.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite XSS vulnerability in `server.transformIndexHtml` via URL payload
+    cve_id: CVE-2023-49293
+    cve_url: https://github.com/advisories/GHSA-92r3-m2mg-pj97
+    detected_date: Dec 6
+    severity: moderate
+    first_patched: 4.4.12
